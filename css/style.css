@@ -30,8 +30,8 @@ nav li{
     display: inline-block;
 }
 
-.container{
-    max-width: 1080px;
+.container, .big-container{
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -49,7 +49,7 @@ nav li{
 }
 
 .header-img{
-    padding-top: 50px;
+    margin-top: 100px;
     width: 70%;
 }
 
@@ -59,4 +59,37 @@ nav li{
 
 .container h1{
     text-align: center;
+}
+
+.selling{
+    width: 100%;
+}
+.big-container{
+    margin-top: 250px;
+    max-width: 1200px;
+}
+
+.business-plan{
+    background-color: brown;
+    height: 500px;
+    width: calc(100% / 3 - 20px);
+    margin-right: 20px;
+}
+
+.business-plan-middle{
+    background-color: brown;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: calc(100% / 3 - 40px);
+}
+.business-plan-right{
+    background-color: brown;
+    height: 500px;
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
+}
+
+.selling .clearfix{
+    width: 100%;
 }
