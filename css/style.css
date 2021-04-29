@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix{
@@ -92,4 +93,26 @@ nav li{
 
 .selling .clearfix{
     width: 100%;
+}
+
+[class^=business-plan]{
+    border: 5px solid grey;
+}
+
+.intro{
+    margin-bottom: 40px;
+}
+
+.btitle{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-bottom: 5px solid grey;
+}
+
+ul{
+    list-style: none;
+}
+
+.personal-selling{
+    margin-top: 30px;
 }
