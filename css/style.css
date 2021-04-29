@@ -19,7 +19,17 @@
     float: right;
 }
 
+button{
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    border-style: none;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+}
+
 nav{
+    height: 80px;
 width: 100%;
 }
 
@@ -28,7 +38,13 @@ nav .ul{
 }
 
 nav li{
+    padding: 0px 20px 0px 20px;
     display: inline-block;
+    margin-top: 30px;
+}
+
+nav img{
+    vertical-align: middle;
 }
 
 .container, .big-container{
@@ -41,16 +57,16 @@ nav li{
 }
 
 .bg{
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
 .header-aside{
+    margin-top: 30px;
     width: 30%;
 }
 
 .header-img{
-    margin-top: 100px;
     width: 70%;
 }
 
@@ -58,8 +74,21 @@ nav li{
     width: 100%;
 }
 
+.header-aside button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.arrow{
+    margin-top: 40px;
+    font-weight: bold;
+    font: 30px;
+}
+
 .container h1{
-    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 70px;
 }
 
 .selling{
@@ -68,6 +97,13 @@ nav li{
 .big-container{
     margin-top: 250px;
     max-width: 1200px;
+}
+
+.intro span{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 25px;
+    display: inline-block;
 }
 
 .business-plan{
@@ -137,9 +173,14 @@ ul{
     padding-left: 50px;
 }
 
+.operations{
+    margin-top: 100px;
+}
+
 [class^=operation-number]{
     width: calc(100% / 3 - 50px);
-    margin-bottom: 60px;
+    height: 450px;
+    margin-bottom: 50px;
 }
 
 [class^=operation-number] img{
