@@ -30,7 +30,7 @@ button{
 
 nav{
     height: 80px;
-width: 100%;
+    width: 100%;
 }
 
 nav .ul{
@@ -106,23 +106,28 @@ nav img{
     display: inline-block;
 }
 
+.intro .button1, .intro .button2{
+    display: inline-block;
+}
+
+.intro .button1{
+    margin-right: 15px;
+}
+
 .business-plan{
     background-color: brown;
-    height: 500px;
     width: calc(100% / 3 - 20px);
     margin-right: 20px;
 }
 
 .business-plan-middle{
     background-color: brown;
-    height: 500px;
     margin-right: 20px;
     margin-left: 20px;
     width: calc(100% / 3 - 40px);
 }
 .business-plan-right{
     background-color: brown;
-    height: 500px;
     width: calc(100% / 3 - 20px);
     margin-left: 20px;
 }
