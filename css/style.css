@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+span{
+    display: inline-block;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -115,19 +119,16 @@ nav img{
 }
 
 .business-plan{
-    background-color: brown;
     width: calc(100% / 3 - 20px);
     margin-right: 20px;
 }
 
 .business-plan-middle{
-    background-color: brown;
     margin-right: 20px;
     margin-left: 20px;
     width: calc(100% / 3 - 40px);
 }
 .business-plan-right{
-    background-color: brown;
     width: calc(100% / 3 - 20px);
     margin-left: 20px;
 }
@@ -137,9 +138,12 @@ nav img{
 }
 
 [class^=business-plan]{
-    border: 5px solid grey;
+    border: 2px solid #E0E0E0;
 }
 
+.innerplan{
+    padding: 30px;
+}
 .intro{
     margin-bottom: 40px;
 }
@@ -147,7 +151,35 @@ nav img{
 .btitle{
     padding: 10px 20px 10px 20px;
     text-align: center;
-    border-bottom: 5px solid grey;
+    border-bottom: 2px solid #E0E0E0;
+    font-weight: bold;
+}
+
+.fa-user:before, .fa-user-friends:before, .fa-check:before{
+    margin-right: 10px;
+}
+
+.sub-details{
+    color: #728285;
+}
+
+.imp-things, .price, .sub-type{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.innerplan > * {
+    margin-bottom: 20px;
+}
+
+.buynow{
+    color: #0061FF;
+}
+
+.innerplan ul li{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 ul{
