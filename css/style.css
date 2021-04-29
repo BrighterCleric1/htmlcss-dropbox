@@ -116,3 +116,44 @@ ul{
 .personal-selling{
     margin-top: 30px;
 }
+
+.partner{
+    margin-top: 100px;
+}
+
+.partner-img img{
+    width: 100%;
+}
+
+.partner-img, .partner-section{
+    width: 50%;
+}
+
+.partner-img{
+    padding-right: 50px;
+}
+
+.partner-section{
+    padding-left: 50px;
+}
+
+[class^=operation-number]{
+    width: calc(100% / 3 - 50px);
+}
+
+[class^=operation-number] img{
+    width: 100%;
+}
+
+[class^=operation-number-left]{
+    margin-right: 25px;
+}
+
+[class^=operation-number-middle]{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+[class^=operation-number-right]{
+    margin-left: 25px;
+}
