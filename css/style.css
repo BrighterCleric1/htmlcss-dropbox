@@ -139,6 +139,7 @@ ul{
 
 [class^=operation-number]{
     width: calc(100% / 3 - 50px);
+    margin-bottom: 60px;
 }
 
 [class^=operation-number] img{
