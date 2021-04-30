@@ -297,8 +297,8 @@ ul{
 
 [class^=square-]{
     width: calc(100% / 3);
-    height: 400px;
-    background-color:black ;
+    height: 500px;
+    background-color: #F5F5F5;
 }
 
 [class^=lcompany]{
@@ -335,3 +335,42 @@ ul{
 .square-left [class^=lcompany]:hover{
     border: 10px solid #D1E9CD;
 }
+
+.lcompany5{
+    background-color: #D5001F;
+}
+
+.lcompany6{
+    background-color: #B4D0E7;
+}
+
+.lcompany6 img{
+    width: 60%;
+}
+.lcompany7{
+    background-color: #0D2481;
+}
+
+.lcompany8{
+    background-color: #FFD830;
+}
+
+.squaremiddle-img img{
+    width: 30%;
+    margin: 80px 0px 40px 40px;
+}
+
+.squaremiddle-img hr{
+    color: #D0D0D3;
+    width: 60px;
+    margin-left: 40px;
+}
+
+.squaremiddle-img div span{
+    margin: 60px 20px 0px 20px;
+}
+
+.lcompany1:hover .squaremiddle-img div span{
+    content: "ciao";
+}
+
