@@ -332,8 +332,8 @@ ul{
     transform: translate(-50%, -50%);
 }
 
-.square-left [class^=lcompany]:hover{
-    border: 10px solid #D1E9CD;
+[class^=lcompany]:hover{
+    border: 10px solid rgba(0, 0, 0, 0.2);
 }
 
 .lcompany5{
