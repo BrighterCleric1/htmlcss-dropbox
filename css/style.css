@@ -335,12 +335,25 @@ ul{
     background-color: #FF1C1C;
 }
 
-[class^=lcompany] img{
+/* [class^=lcompany] img{
     height: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+[class^=lcompany] svg{
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #FFF;
+}
+
+.lcompany6 svg{
+    width: 60%;
 }
 
 [class^=lcompany]:hover{
@@ -364,7 +377,7 @@ ul{
 
 .lcompany8{
     background-color: #FFD830;
-}
+} 
 
 .squaremiddle-img img{
     width: 30%;
