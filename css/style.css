@@ -295,6 +295,10 @@ ul{
     font-size: 20px;
 }
 
+.container-business{
+    width: 100%;
+}
+
 [class^=square-]{
     width: calc(100% / 3);
     height: 500px;
@@ -374,3 +378,7 @@ ul{
     content: "ciao";
 }
 
+.bottombgbusiness{
+    height: 400px;
+    background-color: #B4D0E7;
+}
