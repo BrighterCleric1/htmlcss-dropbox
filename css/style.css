@@ -185,6 +185,9 @@ nav img{
     margin-bottom: 20px;
 }
 
+.innerplan hr{
+    width: 50px;
+}
 .trial{
     text-align: center;
 }
