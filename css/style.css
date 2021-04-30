@@ -301,33 +301,37 @@ ul{
     background-color:black ;
 }
 
-[class^=company]{
+[class^=lcompany]{
     width: 50%;
     height: 50%;
     background-color: #fff;
     position: relative;
 }  
 
-.company1{
+.lcompany1{
     background-color: #A2D39B;
 }
 
-.company2{
+.lcompany2{
     background-color: #61082B;
 }
 
-.company3{
+.lcompany3{
     background-color: #0093CE;
 }
 
-.company4{
+.lcompany4{
     background-color: #FF1C1C;
 }
 
-[class^=company] img{
+[class^=lcompany] img{
     height: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.square-left [class^=lcompany]:hover{
+    border: 10px solid #D1E9CD;
 }
